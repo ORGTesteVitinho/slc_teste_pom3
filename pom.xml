@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>br.com.nuclea.slc</groupId>
+    <artifactId>nome_servico</artifactId>
+    <version>0.0.1</version>
+    <name>nome_servico</name>
+    <description>changit</description>
+    
+    <distributionManagement>
+        <repository>
+            <id>nome_servico-maven-release</id>
+            <name>nome_servico-maven-release</name>
+            <url>https://nucleasa-493535944902.d.codeartifact.us-east-1.amazonaws.com/maven/nome_servico-maven-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nome_servico-maven-snapshot</id>
+            <name>nome_servico-maven-snapshot</name>
+            <url>https://nucleasa-493535944902.d.codeartifact.us-east-1.amazonaws.com/maven/nome_servico-maven-snapshot/</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
