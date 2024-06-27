@@ -4,21 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.nuclea.slc</groupId>
-    <artifactId>nome_servico</artifactId>
+    <artifactId>slc</artifactId>
     <version>0.0.1</version>
-    <name>nome_servico</name>
+    <name>slc</name>
     <description>changit</description>
     
     <distributionManagement>
         <repository>
-            <id>nome_servico-maven-release</id>
-            <name>nome_servico-maven-release</name>
-            <url>https://nucleasa-493535944902.d.codeartifact.us-east-1.amazonaws.com/maven/nome_servico-maven-release/</url>
+            <id>slc-maven-release</id>
+            <name>slc-maven-release</name>
+            <url>https://nucleasa-493535944902.d.codeartifact.us-east-1.amazonaws.com/maven/slc-maven-release/</url>
         </repository>
         <snapshotRepository>
-            <id>nome_servico-maven-snapshot</id>
-            <name>nome_servico-maven-snapshot</name>
-            <url>https://nucleasa-493535944902.d.codeartifact.us-east-1.amazonaws.com/maven/nome_servico-maven-snapshot/</url>
+            <id>slc-maven-snapshot</id>
+            <name>slc-maven-snapshot</name>
+            <url>https://nucleasa-493535944902.d.codeartifact.us-east-1.amazonaws.com/maven/slc-maven-snapshot/</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
